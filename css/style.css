@@ -1,5 +1,15 @@
+.topo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 body {
-  background-color: #5005ff;
+  background: #1c32ff;
+}
+
+.ml {
+  padding-left: 10% !important;
 }
 
 .title {
