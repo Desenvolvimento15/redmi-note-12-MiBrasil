@@ -13,8 +13,9 @@ body {
 }
 
 .boxcolor1 {
+  width: 100%;
   background: #fff url(../img/01.jpg) center center/cover no-repeat local;
-  height: 49rem;
+  height: 50rem;
 }
 
 .title {
