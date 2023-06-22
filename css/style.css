@@ -1,19 +1,28 @@
+.container {
+  max-width: 1440px;
+  background-color: #fff;
+  /*background-image: url(img/bkgd.jpg);*/
+  background-repeat: repeat-y;
+}
+
 .topo {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 body {
   background: #3b3b3b;
 }
-
+body {
+  font-family: "Camphor Pro", sans-serif;
+}
 .ml {
   padding-left: 10% !important;
 }
 
 .boxcolor1 {
-  width: 100%;
   background: #fff url(../img/01.jpg) center center/cover no-repeat local;
   height: 50rem;
 }
@@ -24,7 +33,7 @@ body {
   text-align: center;
   font-size: 30px;
   font-weight: bold;
-  font-family: "Roboto", sans-serif;
+  font-family: "Camphor Pro", sans-serif;
 }
 
 .sub-title {
@@ -32,7 +41,7 @@ body {
   text-transform: uppercase;
   text-align: center;
   font-size: 16px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Camphor Pro", sans-serif;
 }
 
 .aviso {
@@ -45,7 +54,7 @@ body {
   color: #333;
   text-align: left !important;
   padding: 20px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Camphor Pro", sans-serif;
 }
 
 .txt-size {
@@ -56,7 +65,7 @@ body {
   color: #000;
   text-align: center;
   padding: 20px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Camphor Pro", sans-serif;
 }
 
 .txt-preto {
