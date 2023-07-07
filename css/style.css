@@ -2,30 +2,9 @@
   color: #000;
   text-transform: uppercase;
   text-align: center;
+  margin-top: 6%;
   font-size: 30px;
   font-weight: bold;
-  font-family: "Roboto", sans-serif;
-  position: relative;
-}
-
-.sub-title {
-  color: #000;
-  text-transform: uppercase;
-  text-align: center;
-  font-size: 16px;
-  font-family: "Roboto", sans-serif;
-}
-
-.aviso {
-  font-size: 12px;
-  font-style: italic;
-  text-align: center;
-}
-
-.p-left {
-  color: #333;
-  text-align: left !important;
-  padding: 20px;
   font-family: "Roboto", sans-serif;
   position: relative;
 }
@@ -51,24 +30,26 @@
 
 .boxcolor {
   background-color: #000000;
-  height: 30rem;
+  height: 20rem;
 }
 
 .boxcolor2 {
-  background-color: #5f5f5f;
+  background-color: #e4f6f9;
 }
 
 .boxcolor3 {
   background-color: #fff;
+  height: 20rem;
 }
+
 @media (max-width: 960px) {
 }
+
 @media (max-width: 720px) {
   .title {
     text-align: center;
     font-family: "Roboto", sans-serif;
     margin-top: 6%;
-    margin-left: 40px;
     font-weight: 700;
     position: relative;
   }
@@ -76,10 +57,5 @@
   .p-center {
     text-align: center;
     position: relative;
-  }
-
-  img {
-    padding-top: 3rem;
-    width: 100%;
   }
 }
