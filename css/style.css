@@ -1,24 +1,49 @@
+.container {
+  max-width: 1440px;
+  background-color: #fff;
+  background-repeat: repeat-y;
+}
+
+@import url("https://i02.appmifile.com/i18n/fonts/CamphorPro/vf/index.css");
+@import url("https://i02.appmifile.com/i18n/fonts/CamphorPro/woff2/index.css");
+
+@font-face {
+  font-family: "Xiaomi Brand";
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("https://i02.appmifile.com/i18n/fonts/Brand/Brand.woff2")
+    format("woff2");
+}
+
+body {
+  font-family: "Camphor Pro", sans-serif;
+}
+
 .title {
-  color: #000;
   text-transform: uppercase;
   text-align: center;
-  font-size: 30px;
+  font-size: 2.5rem;
   font-weight: bold;
-  font-family: "Roboto", sans-serif;
+  font-family: "Camphor Pro", sans-serif;
+  position: relative;
+  margin-bottom: 5rem;
+}
+
+.subtitle {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: "Camphor Pro", sans-serif;
   position: relative;
 }
 
-.txt-size {
-  font-size: 20px;
-  text-align: center;
-  font-weight: bold;
-}
-
 .p-center {
-  color: #000;
+  font-size: 1.5rem;
   text-align: center;
   padding: 20px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Camphor Pro", sans-serif;
   position: relative;
 }
 
@@ -32,32 +57,42 @@
 
 .boxcolor {
   background-color: #000000;
-  height: 20rem;
 }
 
 .boxcolor2 {
   background-color: #e4f6f9;
 }
 
-.boxcolor3 {
-  background-color: #fff;
-  height: 15rem;
-}
+/****************************************************************/
 
 @media (max-width: 960px) {
 }
 
 @media (max-width: 720px) {
   .title {
+    text-transform: uppercase;
     text-align: center;
-    font-family: "Roboto", sans-serif;
-    margin-top: 6%;
-    font-weight: 700;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: "Camphor Pro", sans-serif;
+    position: relative;
+    margin-bottom: 5rem;
+  }
+
+  .subtitle {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: "Camphor Pro", sans-serif;
     position: relative;
   }
 
   .p-center {
+    font-size: 1.5rem;
     text-align: center;
+    padding: 1rem;
+    font-family: "Camphor Pro", sans-serif;
     position: relative;
   }
 }
