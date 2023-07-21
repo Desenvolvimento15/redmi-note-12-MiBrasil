@@ -21,7 +21,6 @@ body {
 }
 
 .title {
-  text-transform: uppercase;
   text-align: center;
   font-size: 2rem;
   font-weight: 400;
@@ -31,7 +30,6 @@ body {
 }
 
 .subtitle {
-  text-transform: uppercase;
   text-align: center;
   font-size: 2rem;
   font-weight: 800;
@@ -92,7 +90,6 @@ body {
 
 @media (max-width: 920px) {
   .title {
-    text-transform: uppercase;
     text-align: center;
     font-size: 1.3rem;
     font-weight: 400;
