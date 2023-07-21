@@ -79,6 +79,7 @@ body {
 }
 
 /***************************grid*************************************/
+
 .grid-xiaomi {
   display: flex;
   justify-content: center;
@@ -101,7 +102,7 @@ body {
 
   .subtitle {
     text-align: center;
-    font-size: 1.21rem;
+    font-size: 1.3rem;
     font-weight: 800;
     font-family: "Camphor Pro", sans-serif;
     position: relative;
@@ -109,7 +110,14 @@ body {
   }
 
   .p-center {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
+    text-align: center;
+    font-family: "Camphor Pro", sans-serif;
+    position: relative;
+  }
+
+  .p-center-text {
+    font-size: 1.1rem;
     text-align: center;
     font-family: "Camphor Pro", sans-serif;
     position: relative;
